@@ -12,9 +12,15 @@ export const Main = () => {
           {data.map((value,id)=> value.name.toLowerCase().includes(state.toLowerCase()) && (
               <Block.Inset  key={id}>
                <img src={value.url} alt="" />
-                  <h4>{value.name}</h4>
+              <div>   
+                <div><img className='img1' src={value.image} alt="" /><span className='spanvalue'>{value.name} </span>
+                
+                </div>
+                <span className='llok'>{value.look}</span>
+                </div>
               </Block.Inset>
           ))}
      </Block>
   )
 }
+

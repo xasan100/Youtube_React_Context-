@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import "./stayle.js"
 import YotubeLogonav from "../../Assest/yotubeLogo.svg"
 import hamburgerBtn from "../../Assest/hamburger.png"
@@ -13,12 +13,12 @@ import { MianContext } from '../../Context/Context.jsx'
 export const About = () => {
 
     const [state, setState] = useContext(MianContext)
-    
+        
 
     return (
         <Block>
             <Navbarlogo>
-                <Hamburger src={hamburgerBtn} />
+                <Hamburger  src={hamburgerBtn} />
                 <Logonav src={YotubeLogonav} />
             </Navbarlogo>
 

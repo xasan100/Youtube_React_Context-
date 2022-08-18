@@ -15,6 +15,7 @@ const Block = styled.div`
 const Navbarlogo = styled.div`
     display: flex;
     align-items: center;
+    cursor: pointer ;
  `
 
 const NavbarCenter = styled.div`
@@ -27,6 +28,7 @@ const NavbarCenter = styled.div`
         border-radius: 2px 0px 0px 2px;
         color: white ;
         padding: 5px 10px ;
+       
 
     }
  `
@@ -35,6 +37,7 @@ const Inputsearch = styled.div`
     height: 32px ;
     background: rgba(255, 255, 255, 0.2);
     padding: 8px 10px ;
+    cursor: pointer ;
     span{
         color: wheat;
     }
