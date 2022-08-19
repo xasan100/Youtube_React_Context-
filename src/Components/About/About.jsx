@@ -9,16 +9,18 @@ import EndImgLogo from "../../Assest/pp.png"
 import { AiOutlineSearch } from "react-icons/ai";
 import { Block, Endicon1, Endicon2, Endicon3, EndImg, Hamburger, Inputsearch, Logonav, NavbarCenter, Navbarend, Navbarlogo } from './stayle.js'
 import { MianContext } from '../../Context/Context.jsx'
+import { SideBarHiddenContext } from '../../Context/SidebarHidden.jsx'
 
-export const About = () => {
+const Navbar = () => {
+    const [hidden, setHidden] = useContext(SideBarHiddenContext)
 
     const [state, setState] = useContext(MianContext)
-        
+
 
     return (
         <Block>
             <Navbarlogo>
-                <Hamburger  src={hamburgerBtn} />
+                <Hamburger src={hamburgerBtn} onClick={() => setHidden(!hidden)} />
                 <Logonav src={YotubeLogonav} />
             </Navbarlogo>
 
@@ -38,3 +40,6 @@ export const About = () => {
         </Block>
     )
 }
+
+
+export default Navbar;

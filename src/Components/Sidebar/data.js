@@ -77,7 +77,7 @@ export const data = [
    
 
     {
-        id: 8,
+        id: 7,
         tiitle: 'Watch videos',
         child: [],
         childHidden: false,
@@ -85,7 +85,7 @@ export const data = [
     },
 
     {
-        id: 9,
+        id: 8,
         tiitle: 'Watch videos',
         child: [],
         childHidden: false,
@@ -94,15 +94,83 @@ export const data = [
 
   
     {
-        id: 6,
+        id: 9,
         tiitle: 'History',
-        child: [],
-        childHidden: false,
+        child: [ 
+         
+
+
+            // img subsription
+
+
+            {
+                id: 12,
+                tiitle: 'The Game',
+                image: protfoil1,
+
+            },
+            {
+                id: 13,
+                hidden: false,
+                tiitle: 'Lean Yo',
+                image: protfoil2,
+
+
+            },
+            {
+                id: 14,
+                hidden: false,
+                tiitle: 'Best Kuafo`r',
+                image: protfoil2,
+
+            },
+            {
+                id: 15,
+                hidden: false,
+                tiitle: 'Meyau Seu',
+                image: protfoil3,
+
+
+            },
+            {
+                id: 16,
+                hidden: false,
+                tiitle: 'Discover Design',
+                image: protfoil4,
+
+
+            },
+            {
+                id: 17,
+                hidden: false,
+                tiitle: 'Build Game',
+                image: protfoil5,
+
+
+            },
+            {
+                id: 18,
+                hidden: false,
+                tiitle: 'Vlogger Man',
+                image: protfoil6,
+
+
+            },
+            {
+                id: 19,
+                hidden: false,
+                tiitle: 'Show More',
+                image: img7,
+
+
+            },
+
+
+        ],
+        childHidden: true,
         image: img7,
 
     },
-
-
     {
         id: 11,
         tiitle: 'SUBSCRIPTIONS',
@@ -110,69 +178,6 @@ export const data = [
 
     },
 
-   
-// img subsription
 
-
-    {
-        id: 12,
-        tiitle: 'The Game',
-        image: protfoil1,
-
-    },
-    {
-        id: 13,
-        hidden: false,
-        tiitle: 'Lean Yo',
-        image: protfoil2,
-
-
-    },
-    {
-        id: 14,
-        hidden: false,
-        tiitle: 'Best Kuafo`r',
-        image: protfoil2,
-
-    },
-    {
-        id: 15,
-        hidden: false,
-        tiitle: 'Meyau Seu',
-        image: protfoil3,
-
-
-    },
-    {
-        id: 16,
-        hidden: false,
-        tiitle: 'Discover Design',
-        image: protfoil4,
-
-
-    },
-    {
-        id: 17,
-        hidden: false,
-        tiitle: 'Build Game',
-        image: protfoil5,
-
-
-    },
-    {
-        id: 18,
-        hidden: false,
-        tiitle: 'Vlogger Man',
-        image: protfoil6,
-
-
-    },
-    {
-        id: 19,
-        hidden: false,
-        tiitle: 'Show More',
-        image: img7,
-
-
-    },
+    
 ]
